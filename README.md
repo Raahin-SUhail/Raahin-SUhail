@@ -7,18 +7,11 @@
 
 <div align="center"><img src="assets/floating-code.svg" width="100%" alt="Subtle floating code animation"/></div>
 
-## About
-
-**Computer Science and Technology graduate from SNS College of Engineering.** I focus on Python backends, REST APIs, relational data systems and React-based full-stack products, with a growing focus on system design.
-
 ## Tech Stack
-
 <div align="center"><img src="assets/clean-black-stack.svg" width="100%" alt="Animated technology stack"/></div>
-
 <div align="center"><code>Python</code> · <code>FastAPI</code> · <code>Django</code> · <code>Flask</code> · <code>React</code> · <code>JavaScript</code> · <code>HTML</code> · <code>CSS</code> · <code>Tailwind CSS</code> · <code>SQL</code> · <code>MySQL</code> · <code>REST APIs</code> · <code>Git</code> · <code>GitHub</code></div>
 
 ## Activity
-
 <div align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=Raahin-SUhail&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github&include_all_commits=true" height="175"/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raahin-SUhail&layout=compact&theme=github_dark&hide_border=true&langs_count=8" height="175"/>
@@ -29,7 +22,6 @@
 </div>
 
 ## Contributions
-
 <div align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Raahin-SUhail/Raahin-SUhail/output/github-snake-dark.svg"/><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Raahin-SUhail/Raahin-SUhail/output/github-snake.svg"/><img src="https://raw.githubusercontent.com/Raahin-SUhail/Raahin-SUhail/output/github-snake.svg" width="100%" alt="GitHub contribution snake"/></picture></div>
 
 ## Education
@@ -38,4 +30,4 @@
 ## Certifications
 `Salesforce AgenticAI` · `OCI AI Foundations` · `Python Programming` · `Databricks GenAI` · `AWS Cloud Practitioner Essentials` · `Generative Models for Developers — Infosys`
 
-<div align="center"><img src="assets/floating-code.svg" width="100%" alt="Subtle footer animation"/><br/><code>build() → learn() → ship() → repeat()</code></div>
+<div align="center"><img src="assets/floating-code.svg" width="100%" alt="Subtle footer animation"/></div>
