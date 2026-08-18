@@ -1,8 +1,16 @@
 <div align="center">
 
-<img src="assets/raahin-header.svg" width="100%" alt="Raahin Suhail — Backend Developer, Python Engineer and Web Developer"/>
+<img src="assets/raahin-header.svg" width="100%" alt="Raahin Suhail — Full Stack Developer, Python Engineer and Backend Developer"/>
 
-<br/>
+<img src="assets/floating-code.svg" width="100%" alt="Subtle floating development symbols"/>
+
+![Profile Views](https://komarev.com/ghpvc/?username=Raahin-SUhail&label=PROFILE+VIEWS&color=30363D&style=for-the-badge)
+
+</div>
+
+## SOCIALS
+
+<div align="center">
 
 <a href="https://github.com/Raahin-SUhail"><img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=E6EDF3" alt="GitHub"/></a>
 <a href="https://www.linkedin.com/in/raahinsuhail/"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn"/></a>
@@ -17,6 +25,14 @@
 <img src="assets/premium-tech-stack.svg" width="100%" alt="Verified technology stack: Python, JavaScript, HTML5, CSS3, SQL, FastAPI, Django, Flask, REST APIs, React, Tailwind CSS, MySQL, Git and GitHub"/>
 </div>
 
+## ACTIVITY
+
+<div align="center">
+
+[![Raahin Suhail activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Raahin-SUhail&bg_color=050505&color=9DA7B3&line=C9D1D9&point=E6EDF3&area=true&area_color=15191E&hide_border=true&custom_title=Contribution%20Activity)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+</div>
+
 ## CONTRIBUTIONS
 
 <div align="center">
@@ -27,34 +43,15 @@
 </picture>
 </div>
 
-<table>
-<tr>
-<td width="50%" valign="top">
+## CERTIFICATIONS
 
-### EDUCATION
-
-**SNS College of Engineering**  
-B.E. — Computer Science and Technology
-
-</td>
-<td width="50%" valign="top">
-
-### CERTIFICATIONS
-
-- Salesforce AgenticAI
-- OCI AI Foundations
-- Python Programming
-- Databricks Generative AI
-- AWS Cloud Practitioner Essentials
-- Generative Models for Developers — Infosys
-
-</td>
-</tr>
-</table>
+<div align="center">
+<img src="assets/premium-certifications.svg" width="100%" alt="Verified certifications: Salesforce AgenticAI, OCI AI Foundations, Python Programming, Databricks Generative AI, AWS Cloud Practitioner Essentials, and Generative Models for Developers by Infosys"/>
+</div>
 
 <div align="center">
 
-
+**SNS College of Engineering** · B.E. Computer Science and Technology
 
 <br/><br/>
 
