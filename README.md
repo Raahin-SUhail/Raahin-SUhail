@@ -7,10 +7,6 @@
 
 <div align="center"><img src="assets/floating-code.svg" width="100%" alt="Subtle floating code animation"/></div>
 
-## About
-
-**Computer Science and Technology graduate from SNS College of Engineering.** I focus on Python backends, REST APIs, relational data systems and React-based full-stack products, with a growing focus on system design.
-
 ## Tech Stack
 
 <div align="center"><img src="assets/clean-black-stack.svg" width="100%" alt="Animated technology stack"/></div>
@@ -38,4 +34,4 @@
 ## Certifications
 `Salesforce AgenticAI` · `OCI AI Foundations` · `Python Programming` · `Databricks GenAI` · `AWS Cloud Practitioner Essentials` · `Generative Models for Developers — Infosys`
 
-<div align="center"><img src="assets/floating-code.svg" width="100%" alt="Subtle footer animation"/><br/><code>build() → learn() → ship() → repeat()</code></div>
+<div align="center"><img src="assets/floating-code.svg" width="100%" alt="Subtle footer animation"/></div>
