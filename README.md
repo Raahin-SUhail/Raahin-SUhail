@@ -54,7 +54,7 @@ B.E. — Computer Science and Technology
 
 <div align="center">
 
-<sub>Profile design contribution by <a href="https://github.com/ROSHAN-1211">Roshan Suhail</a></sub>
+
 
 <br/><br/>
 
