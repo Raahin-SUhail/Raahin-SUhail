@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" role="img" aria-labelledby="title desc">
+  <title id="title">Profile footer</title>
+  <desc id="desc">Built with code, curiosity and consistency. Thanks for visiting.</desc>
+  <rect x="12" y="12" width="1176" height="96" rx="20" fill="#050505" stroke="#30363D" stroke-width="2"/>
+  <text x="600" y="55" text-anchor="middle" fill="#C9D1D9" font-family="Segoe UI,Arial,sans-serif" font-size="20" letter-spacing="2">BUILT WITH CODE · CURIOSITY · CONSISTENCY</text>
+  <text x="600" y="82" text-anchor="middle" fill="#6E7681" font-family="Segoe UI,Arial,sans-serif" font-size="14" letter-spacing="3">THANKS FOR VISITING</text>
+  <rect x="120" y="96" width="960" height="1.5" rx="1" fill="#30363D"/>
+  <rect x="120" y="96" width="150" height="1.5" rx="1" fill="#E6EDF3">
+    <animate attributeName="x" values="120;930;120" dur="8s" repeatCount="indefinite"/>
+  </rect>
+</svg>
