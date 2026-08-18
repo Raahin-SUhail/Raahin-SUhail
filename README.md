@@ -1,12 +1,10 @@
 <div align="center">
 
-# 👋 Hi, I'm Raahin Suhail
+<img src="assets/header.svg" width="100%" alt="Raahin Suhail — Python Full Stack Developer"/>
 
 ### Python Full Stack Developer • Backend-Focused Engineer
 
-Building practical web applications with **Python, FastAPI, Django, React, REST APIs and SQL**.
-
-<br/>
+Building practical applications with **Python, FastAPI, Django, React, REST APIs and SQL**.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/raahinsuhail/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white)](https://personal-portfolio-beta-nine-57.vercel.app/)
@@ -20,85 +18,98 @@ Building practical web applications with **Python, FastAPI, Django, React, REST 
 
 I'm a **Computer Science and Technology graduate from SNS College of Engineering**, focused on Python-based backend and full-stack development.
 
-I enjoy turning requirements into structured applications — from **REST APIs and relational data models** to responsive React interfaces and AI-assisted application workflows.
+I like building complete applications: designing **REST APIs, relational data models and service boundaries**, connecting them to React interfaces, and integrating AI capabilities where they solve a real product problem.
 
-Currently, I'm strengthening my foundations in **backend engineering, system design, API architecture and production-oriented software development**.
+My current focus is becoming stronger in **backend engineering, system design, API architecture and production-oriented software development**.
 
 ---
 
-## 🧩 Core Stack
+## 🛠️ Tech Stack
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![REST](https://img.shields.io/badge/REST_APIs-FF6F00?style=for-the-badge)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+**Languages**  
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+**Backend**  
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white) ![REST](https://img.shields.io/badge/REST_APIs-FF6F00?style=for-the-badge)
+
+**Frontend**  
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+
+**Data & Tools**  
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 </div>
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Featured Work
+
+<table>
+<tr>
+<td width="33%" valign="top">
 
 ### 🏛️ SchemeForge
 **Government Scheme Discovery Platform**
 
-A platform focused on making government schemes easier to discover through structured search, filtering and eligibility-oriented workflows.
+Structured search, filtering and eligibility-oriented workflows for discovering government schemes.
 
-`Python` `Django` `React` `SQL` `REST APIs`
+`Django` `React` `SQL` `REST`
 
----
+</td>
+<td width="33%" valign="top">
 
 ### 🌾 The Yeilder
-**Full Stack Marketplace Platform**
+**Full Stack Marketplace**
 
-A service-oriented marketplace application exploring product workflows, service interactions and modular backend architecture.
+A modular marketplace concept exploring product workflows, services and backend service architecture.
 
-`React` `FastAPI` `Django` `Microservices` `REST APIs`
+`React` `FastAPI` `Django` `Microservices`
 
----
+</td>
+<td width="33%" valign="top">
 
 ### 🎓 EduClip
-**AI-Powered Video Learning Assistant**
+**AI Learning Assistant**
 
-A learning assistant that processes video transcripts, generates summaries and supports AI-assisted question answering.
+Video transcript processing, AI summarization and question answering for learning workflows.
 
-`Python` `FastAPI` `React` `Gemini API` `REST APIs`
+`FastAPI` `React` `Gemini` `REST`
 
----
-
-## 🏗️ What I Work With
-
-| Area | Technologies |
-|---|---|
-| **Languages** | Python · JavaScript · SQL |
-| **Backend** | FastAPI · Django · Flask |
-| **Frontend** | React · HTML · CSS · Tailwind CSS |
-| **APIs** | REST APIs · API integration · Postman |
-| **Databases** | MySQL · SQLite |
-| **Development** | Git · GitHub · Docker |
-| **Interests** | Backend Engineering · System Design · AI Applications |
+</td>
+</tr>
+</table>
 
 ---
 
-## 📊 GitHub
+## 🏗️ Engineering Focus
+
+```text
+Backend Engineering     → FastAPI · Django · Flask · REST APIs
+Data & Persistence      → MySQL · SQL · SQLite · Data Modeling
+Frontend Integration    → React · JavaScript · Tailwind CSS
+Architecture            → Service Design · API Architecture · System Design
+AI Applications         → Gemini API · Summarization · Q&A Workflows
+Development             → Git · GitHub · Postman · Docker
+```
+
+---
+
+## 📊 GitHub Overview
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Raahin-SUhail&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" height="165" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raahin-SUhail&layout=compact&theme=github_dark&hide_border=true" height="165" />
+<img src="https://github-readme-stats.vercel.app/api?username=Raahin-SUhail&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github&include_all_commits=true" height="170" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raahin-SUhail&layout=compact&theme=github_dark&hide_border=true&langs_count=8" height="170" />
 
 <br/><br/>
 
 <img src="https://streak-stats.demolab.com?user=Raahin-SUhail&theme=github-dark-blue&hide_border=true" />
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Raahin-SUhail&theme=github-compact&hide_border=true&area=true" width="95%" />
 
 </div>
 
@@ -124,10 +135,11 @@ BE — Computer Science and Technology
 
 ## 🎯 Current Focus
 
-- Building stronger production-oriented **Python backend systems**
-- Deepening **FastAPI, Django, REST API and SQL** expertise
-- Improving **system design and software architecture** fundamentals
-- Building and documenting projects that demonstrate real engineering ability
+- Strengthening **Python backend engineering**
+- Going deeper into **FastAPI, Django, REST APIs and SQL**
+- Learning **low-level system design and software architecture**
+- Building projects that demonstrate real engineering decisions
+- Preparing for **Python Full Stack / Backend Developer** opportunities
 
 ---
 
