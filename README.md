@@ -35,6 +35,14 @@
 
 </div>
 
+## ABOUT ME
+
+I'm **Raahin Suhail**, a Computer Science and Technology student focused on building practical software with Python, backend frameworks, modern web technologies, and REST APIs.
+
+- Building with Python, FastAPI, Django, Flask, React, and SQL
+- Exploring AI, cloud technologies, and scalable application development
+- Open to learning, collaboration, and meaningful engineering projects
+
 <img src="assets/profile-divider.svg" width="100%" alt=""/>
 
 <div align="center">
