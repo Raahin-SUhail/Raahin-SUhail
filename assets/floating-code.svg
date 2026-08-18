@@ -1,1 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 150"><defs><style>@keyframes a{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}.x{animation:a 4s ease-in-out infinite}.y{animation:a 5s ease-in-out infinite}.z{animation:a 4.6s ease-in-out infinite}</style></defs><rect width="1000" height="150" fill="#0d1117"/><g fill="#8b949e" font-family="ui-monospace,monospace"><text class="x" x="50" y="70" font-size="18" opacity=".18">&lt;/&gt;</text><text class="y" x="145" y="55" font-size="17" opacity=".15">{ }</text><text class="z" x="235" y="82" font-size="14" opacity=".22">import</text><text class="x" x="350" y="52" font-size="17" opacity=".13">git</text><text class="y" x="440" y="78" font-size="16" opacity=".2">fn()</text><text class="z" x="550" y="58" font-size="17" opacity=".15">API</text><text class="x" x="650" y="80" font-size="15" opacity=".2">SQL</text><text class="y" x="740" y="52" font-size="18" opacity=".14">{ }</text><text class="z" x="840" y="75" font-size="17" opacity=".19">→</text><text class="x" x="925" y="55" font-size="14" opacity=".15">/build</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 130" role="img" aria-labelledby="title desc">
+  <title id="title">Floating development symbols</title>
+  <desc id="desc">Subtle animated code, API, Git and database symbols on a rich black panel.</desc>
+  <rect x="12" y="12" width="1176" height="106" rx="20" fill="#050505" stroke="#30363D" stroke-width="1.5"/>
+  <g fill="#9DA7B3" font-family="Consolas,monospace" font-size="18">
+    <text x="80" y="72" opacity=".24">&lt;/&gt;<animateTransform attributeName="transform" type="translate" values="0 0;0 -9;0 0" dur="4s" repeatCount="indefinite"/></text>
+    <text x="225" y="60" opacity=".18">{ }<animateTransform attributeName="transform" type="translate" values="0 0;0 8;0 0" dur="5s" repeatCount="indefinite"/></text>
+    <text x="360" y="78" opacity=".22">import<animateTransform attributeName="transform" type="translate" values="0 0;8 0;0 0" dur="5.5s" repeatCount="indefinite"/></text>
+    <text x="520" y="58" opacity=".18">git<animateTransform attributeName="transform" type="translate" values="0 0;0 -7;0 0" dur="4.6s" repeatCount="indefinite"/></text>
+    <text x="650" y="78" opacity=".23">API<animateTransform attributeName="transform" type="translate" values="0 0;-8 0;0 0" dur="5s" repeatCount="indefinite"/></text>
+    <text x="785" y="58" opacity=".18">SQL<animateTransform attributeName="transform" type="translate" values="0 0;0 8;0 0" dur="4.4s" repeatCount="indefinite"/></text>
+    <text x="925" y="77" opacity=".22">fn()<animateTransform attributeName="transform" type="translate" values="0 0;7 0;0 0" dur="5.2s" repeatCount="indefinite"/></text>
+    <text x="1060" y="60" opacity=".18">/ship<animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="5.8s" repeatCount="indefinite"/></text>
+  </g>
+</svg>
