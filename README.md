@@ -55,6 +55,6 @@
 
 <br/><br/>
 
-<img src="assets/premium-footer.svg" width="100%" alt="Built with code, curiosity and consistency. Thanks for visiting."/>
+<img src="assets/premium-footer.svg" width="100%" alt="Built with code, curiosity and consistency. Thanks for visiting"/>
 
 </div>
