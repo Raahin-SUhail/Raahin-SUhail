@@ -28,7 +28,7 @@
 ## ACTIVITY
 
 <div align="center">
-<img src="assets/github-streak.svg" width="90%" alt="GitHub contribution streak"/>
+<img src="https://github-readme-streak-stats-edijunior88.vercel.app?user=Raahin-SUhail&theme=github-dark-blue&hide_border=true" width="90%" alt="GitHub contribution streak"/>
 </div>
 
 ## CONTRIBUTIONS
