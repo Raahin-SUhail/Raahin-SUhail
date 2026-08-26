@@ -17,16 +17,12 @@ jobs:
       - name: Checkout profile repository
         uses: actions/checkout@v4
 
-      - name: Fetch contribution data
-        env:
-          GH_TOKEN: ${{ github.token }}
+      - name: Fetch public contribution calendar
         run: |
-          curl --fail-with-body -sS https://api.github.com/graphql \
-            -H "Authorization: bearer ${GH_TOKEN}" \
-            -H "Content-Type: application/json" \
-            --data-binary @- > /tmp/contrib.json <<'JSON'
-          {"query":"query { viewer { contributionsCollection { contributionCalendar { weeks { contributionDays { date contributionCount } } } } } }"}
-          JSON
+          curl --fail-with-body -sS \
+            -A "Mozilla/5.0" \
+            "https://github.com/users/Raahin-SUhail/contributions" \
+            -o /tmp/contrib.html
 
       - name: Generate SVG
         run: python scripts/generate_activity_graph.py
