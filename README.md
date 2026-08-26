@@ -28,7 +28,7 @@
 ## ACTIVITY
 
 <div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Raahin-SUhail&theme=github-dark-blue&hide_border=true&background=0d1117&ring=e3b341&fire=f0883e&currStreakLabel=58a6ff&sideLabels=8b949e&dates=6e7681&stroke=21262d" width="90%" alt="GitHub contribution streak"/>
+<img src="https://streak-stats.vercel.app?user=Raahin-SUhail&theme=github-dark-blue&hide_border=true&background=0d1117&ring=e3b341&fire=f0883e&currStreakLabel=58a6ff&sideLabels=8b949e&dates=6e7681&stroke=21262d" width="90%" alt="GitHub contribution streak"/>
 </div>
 
 ## CONTRIBUTIONS
