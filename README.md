@@ -29,7 +29,7 @@
 
 <div align="center">
 
-[![Raahin Suhail activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Raahin-SUhail&bg_color=050505&color=9DA7B3&line=C9D1D9&point=E6EDF3&area=true&area_color=15191E&hide_border=true&custom_title=Contribution%20Activity)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<img src="assets/activity-graph.svg" width="100%" alt="Raahin Suhail contribution activity graph"/>
 
 </div>
 
