@@ -28,9 +28,7 @@
 ## ACTIVITY
 
 <div align="center">
-
-<img src="assets/activity-graph.svg" width="100%" alt="Raahin Suhail contribution activity graph"/>
-
+<img src="https://streak-stats.demolab.com?user=Raahin-SUhail&theme=github-dark-blue&hide_border=true&background=0D1117&ring=8B949E&fire=C9D1D9&currStreakLabel=C9D1D9&sideLabels=8B949E&dates=6E7681" width="90%" alt="GitHub contribution streak"/>
 </div>
 
 ## CONTRIBUTIONS
