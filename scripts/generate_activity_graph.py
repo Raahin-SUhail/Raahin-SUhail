@@ -1,22 +1,43 @@
-import json
+import re
 from html import escape
 from pathlib import Path
 
-DATA = Path("/tmp/contrib.json")
+DATA = Path("/tmp/contrib.html")
 OUT = Path("assets/activity-graph.svg")
 
-payload = json.loads(DATA.read_text(encoding="utf-8"))
-errors = payload.get("errors")
-if errors:
-    raise SystemExit(f"GitHub GraphQL error: {errors}")
+html = DATA.read_text(encoding="utf-8", errors="ignore")
+
+# GitHub exposes the public contribution calendar as HTML. Parsing that page avoids
+# relying on the GraphQL contributions API, which GitHub Actions' GITHUB_TOKEN cannot
+# reliably query for this purpose.
+pattern = re.compile(
+    r'<td[^>]*data-date="(?P<date>\d{4}-\d{2}-\d{2})"[^>]*data-level="(?P<level>\d+)"[^>]*>.*?</td>',
+    re.S,
+)
+
+matches = list(pattern.finditer(html))
+if not matches:
+    # Some GitHub markup versions put data-level before data-date.
+    pattern = re.compile(
+        r'<td[^>]*data-level="(?P<level>\d+)"[^>]*data-date="(?P<date>\d{4}-\d{2}-\d{2})"[^>]*>.*?</td>',
+        re.S,
+    )
+    matches = list(pattern.finditer(html))
+
+if not matches:
+    raise SystemExit("Could not find GitHub contribution calendar in the public profile HTML.")
 
 days = []
-for week in payload["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]:
-    days.extend(week["contributionDays"])
+for match in matches:
+    level = int(match.group("level"))
+    cell = match.group(0)
+    # GitHub's accessible label normally contains the exact contribution count.
+    count_match = re.search(r'(\d+) contributions?', cell, re.I)
+    count = int(count_match.group(1)) if count_match else level
+    days.append({"date": match.group("date"), "count": count, "level": level})
 
-# Keep the most recent 365 days and preserve chronological order.
-days = sorted(days, key=lambda item: item["date"])[-365:]
-counts = [int(item["contributionCount"]) for item in days]
+days = sorted({item["date"]: item for item in days}.values(), key=lambda item: item["date"])[-365:]
+counts = [item["count"] for item in days]
 
 W, H = 1100, 300
 PAD_L, PAD_R, PAD_T, PAD_B = 55, 28, 48, 46
@@ -24,16 +45,18 @@ PLOT_W = W - PAD_L - PAD_R
 PLOT_H = H - PAD_T - PAD_B
 MAX = max(counts) if counts else 1
 
-# Log-ish scaling keeps quiet periods readable without hiding busy days.
+
 def y_for(value):
     import math
     scaled = math.log1p(value) / math.log1p(MAX) if MAX else 0
     return PAD_T + PLOT_H - scaled * PLOT_H
 
+
 def x_for(index):
     if len(days) <= 1:
         return PAD_L
     return PAD_L + index * PLOT_W / (len(days) - 1)
+
 
 points = [(x_for(i), y_for(c)) for i, c in enumerate(counts)]
 line = " ".join(f"{x:.1f},{y:.1f}" for x, y in points)
@@ -46,11 +69,10 @@ for i, item in enumerate(days):
     if month not in seen:
         seen.add(month)
         x = x_for(i)
-        label = item["date"][:7]
-        month_labels.append(f'<text x="{x:.1f}" y="{H - 16}" class="label">{escape(label)}</text>')
+        month_labels.append(
+            f'<text x="{x:.1f}" y="{H - 16}" class="label">{escape(month)}</text>'
+        )
 
-# A compact, self-contained SVG means the README no longer depends on a third-party
-# activity-graph image server being available.
 total = sum(counts)
 peak = max(counts) if counts else 0
 last_date = days[-1]["date"] if days else ""
