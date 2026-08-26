@@ -14,7 +14,7 @@
 
 <a href="https://github.com/Raahin-SUhail"><img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=E6EDF3" alt="GitHub"/></a>
 <a href="https://www.linkedin.com/in/raahinsuhail/"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn"/></a>
-<a href="https://personal-portfolio-beta-nine-57.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=E6EDF3" alt="Portfolio"/></a>
+<a href="https://raahinsuhail.dev/"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=E6EDF3" alt="Portfolio"/></a>
 <a href="https://leetcode.com/u/Raahinsuhail/"><img src="https://img.shields.io/badge/LeetCode-0D1117?style=for-the-badge&logo=leetcode&logoColor=FFA116" alt="LeetCode"/></a>
 
 </div>
