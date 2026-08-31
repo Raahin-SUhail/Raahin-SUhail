@@ -1,15 +1,58 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 130" role="img" aria-labelledby="title desc">
   <title id="title">Floating development symbols</title>
   <desc id="desc">Subtle animated code, API, Git and database symbols on a rich black panel.</desc>
+
+  <style>
+    @keyframes float-up {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-9px); }
+    }
+
+    @keyframes float-down {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(8px); }
+    }
+
+    @keyframes drift-right {
+      0%, 100% { transform: translateX(0); }
+      50% { transform: translateX(8px); }
+    }
+
+    @keyframes drift-left {
+      0%, 100% { transform: translateX(0); }
+      50% { transform: translateX(-8px); }
+    }
+
+    @keyframes float-up-small {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-7px); }
+    }
+
+    @keyframes float-up-medium {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+
+    .symbol-1 { animation: float-up 4s ease-in-out infinite; }
+    .symbol-2 { animation: float-down 5s ease-in-out infinite; }
+    .symbol-3 { animation: drift-right 5.5s ease-in-out infinite; }
+    .symbol-4 { animation: float-up-small 4.6s ease-in-out infinite; }
+    .symbol-5 { animation: drift-left 5s ease-in-out infinite; }
+    .symbol-6 { animation: float-down 4.4s ease-in-out infinite; }
+    .symbol-7 { animation: drift-right 5.2s ease-in-out infinite; }
+    .symbol-8 { animation: float-up-medium 5.8s ease-in-out infinite; }
+  </style>
+
   <rect x="12" y="12" width="1176" height="106" rx="20" fill="#050505" stroke="#30363D" stroke-width="1.5"/>
+
   <g fill="#9DA7B3" font-family="Consolas,monospace" font-size="18">
-    <text x="80" y="72" opacity=".24">&lt;/&gt;<animateTransform attributeName="transform" type="translate" values="0 0;0 -9;0 0" dur="4s" repeatCount="indefinite"/></text>
-    <text x="225" y="60" opacity=".18">{ }<animateTransform attributeName="transform" type="translate" values="0 0;0 8;0 0" dur="5s" repeatCount="indefinite"/></text>
-    <text x="360" y="78" opacity=".22">import<animateTransform attributeName="transform" type="translate" values="0 0;8 0;0 0" dur="5.5s" repeatCount="indefinite"/></text>
-    <text x="520" y="58" opacity=".18">git<animateTransform attributeName="transform" type="translate" values="0 0;0 -7;0 0" dur="4.6s" repeatCount="indefinite"/></text>
-    <text x="650" y="78" opacity=".23">API<animateTransform attributeName="transform" type="translate" values="0 0;-8 0;0 0" dur="5s" repeatCount="indefinite"/></text>
-    <text x="785" y="58" opacity=".18">SQL<animateTransform attributeName="transform" type="translate" values="0 0;0 8;0 0" dur="4.4s" repeatCount="indefinite"/></text>
-    <text x="925" y="77" opacity=".22">fn()<animateTransform attributeName="transform" type="translate" values="0 0;7 0;0 0" dur="5.2s" repeatCount="indefinite"/></text>
-    <text x="1060" y="60" opacity=".18">/ship<animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="5.8s" repeatCount="indefinite"/></text>
+    <text class="symbol-1" x="80" y="72" opacity=".24">&lt;/&gt;</text>
+    <text class="symbol-2" x="225" y="60" opacity=".18">{ }</text>
+    <text class="symbol-3" x="360" y="78" opacity=".22">import</text>
+    <text class="symbol-4" x="520" y="58" opacity=".18">git</text>
+    <text class="symbol-5" x="650" y="78" opacity=".23">API</text>
+    <text class="symbol-6" x="785" y="58" opacity=".18">SQL</text>
+    <text class="symbol-7" x="925" y="77" opacity=".22">fn()</text>
+    <text class="symbol-8" x="1060" y="60" opacity=".18">/ship</text>
   </g>
 </svg>
