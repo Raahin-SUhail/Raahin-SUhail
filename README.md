@@ -2,7 +2,7 @@
 
 <img src="assets/raahin-header.svg" width="100%" alt="Raahin Suhail — Full Stack Developer, Python Engineer and Backend Developer"/>
 
-<img src="assets/floating-code.svg" width="100%" alt="Subtle floating development symbols"/>
+<img src="https://raw.githubusercontent.com/Raahin-SUhail/Raahin-SUhail/main/assets/floating-code.svg?v=2" width="100%" alt="Subtle floating development symbols"/>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Raahin-SUhail&label=PROFILE+VIEWS&color=30363D&style=for-the-badge)
 
@@ -15,7 +15,7 @@
 <a href="https://github.com/Raahin-SUhail"><img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=E6EDF3" alt="GitHub"/></a>
 <a href="https://www.linkedin.com/in/raahinsuhail/"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn"/></a>
 <a href="https://raahinsuhail.dev/"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=E6EDF3" alt="Portfolio"/></a>
-<a href="https://leetcode.com/u/Raahinsuhail/"><img src="https://img.shields.io/badge/LeetCode-0D1117?style=for-the-badge&logo=leetcode&logoColor=FFA116" alt="LeetCode"/></a>
+<a href="https://leetcode.com/u/RaahinSuhail/"><img src="https://img.shields.io/badge/LeetCode-0D1117?style=for-the-badge&logo=leetcode&logoColor=FFA116" alt="LeetCode"/></a>
 
 </div>
 
