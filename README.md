@@ -2,7 +2,7 @@
 
 <img src="assets/raahin-header.svg" width="100%" alt="Raahin Suhail — Full Stack Developer, Python Engineer and Backend Developer"/>
 
-<img src="https://raw.githubusercontent.com/Raahin-SUhail/Raahin-SUhail/main/assets/floating-code.svg?v=2" width="100%" alt="Subtle floating development symbols"/>
+<img src="https://cdn.jsdelivr.net/gh/Raahin-SUhail/Raahin-SUhail@main/assets/floating-code.svg?v=3" width="100%" alt="Subtle floating development symbols"/>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Raahin-SUhail&label=PROFILE+VIEWS&color=30363D&style=for-the-badge)
 
